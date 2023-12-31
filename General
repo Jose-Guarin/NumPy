@@ -1,0 +1,22 @@
+import numpy as np
+#CREATE AN ARRAY
+
+array2 = np.array([[1,2,3],[4,5,6]])
+np.arange(1,6,1)
+np.arange(start = 1, stop = 6, step = 1)
+np.arange(10)  = array[0,1,2,3,4,5,6,7,8,9]
+np.arrage(-5,0,2)
+np.arrage(5,0,-1)
+np.arange(1, 8, 3)[::-1]  == array [7,4,1] == np.flip(np.arange(1,8,3)
+
+power 2**x  ,  np.sqrt(array2)
+np.abs(y)
+
+# creating an array n-dimension
+y = np.arange(6).reshape(2,3)
+y.ndim
+y.shape
+
+subset = array2[1, :2].copy()
+print(subset)  ===> array([4,5])
+
